@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_terraform_aws_snippets_1732885970405-pr-trigger-input-set
+  identifier: Build_terraform_aws_snippets_1732885970405prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_terraform_aws_snippets_1732885970405
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
